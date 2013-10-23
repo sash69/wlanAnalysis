@@ -15,7 +15,7 @@ Program that reads captured probe requests and displays analysis
 
 Before running application make sure that MySQL server is running and change MySQL connection variables inside Database class accordingly (if needed).
 
-Application will then try to connect to MySQL server, search for "wlananalysis" database and create one if doesn't find one. Same goes for "requests" table inside "wlananalysis" database.
+Application will then try to connect to MySQL server, search for "wlananalysis" database and create it if doesn't find one. Same goes for "requests" table inside "wlananalysis" database.
 
 If there are is any data inside database, you can start analyzing. Otherwise you have to input data first.
 
