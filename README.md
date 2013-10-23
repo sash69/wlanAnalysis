@@ -44,6 +44,10 @@ outputYYYY-MM-DD.parsed
 
 .parsed files contain extracted data (date, timestamp, SSI, source MAC, SSID) from captured probe request frames in text form, separated by "||". You can create parsed files from tcpdump output with provided bash script - extract.sh - put the script into folder where your tcpdump creates output files.
 
+.parsed file line example:
+
+`2013-07-05||10:24:18.881959||-77dB||SA:00:21:5c:1e:f0:71||(AMIS-01D066)`
+
 tcpdump usage:
 
 `tcpdump -i ath0 subtype probe-req -G 86400 -w /path/to/folder/output%F.cap`
