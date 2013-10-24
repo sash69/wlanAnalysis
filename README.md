@@ -32,7 +32,7 @@ Input directory structure:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sony<br>
 /*.parsed
 
-Files inside manufacturers folder contain that manufacturers MAC address spaces, separated by new lines. Example:
+Files inside manufacturers folder contain that manufacturer MAC address spaces, separated by new lines. Example:
 
 00:03:93<br>
 00:05:02<br>
@@ -84,7 +84,7 @@ wget http://downloads.openwrt.org/snapshots/trunk/ar71xx/packages/opkg_618-5_ar7
 ipkg install libc_0.9.33.2-1_ar71xx.ipk opkg_618-5_ar71xx.ipk
 ```
 
-7\.  Install required libraries and opkg package manager:
+7\.  Set up opkg configuration file:
 
 ```
 cat > /etc/opkg.conf << EOF
